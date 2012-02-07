@@ -1,0 +1,20 @@
+body {
+  margin: 20px;
+  padding: 0px;
+}
+.undropdown .selected .palette {
+  margin-top: 5px;
+}
+.palette {
+  height: 18px;
+}
+.palette i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  border: 0;
+}
+.undropdown ul li a {
+  padding: 0px;
+}

@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'Leage Gothic';
+  src: url('../fonts/League_Gothic-webfont.eot') format('eot'),
+       url('../fonts/League_Gothic-webfont.woff') format('woff'),
+       url('../fonts/League_Gothic-webfont.ttf') format('ttf'),
+       url('../fonts/League_Gothic-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Goudy Bookletter 1911';
+  src: url('../fonts/goudy_bookletter_1911-webfont.eot') format('eot'),
+       url('../fonts/goudy_bookletter_1911-webfont.woff') format('woff'),
+       url('../fonts/goudy_bookletter_1911-webfont.ttf') format('ttf'),
+       url('../fonts/goudy_bookletter_1911-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'GoudyStM';
+  src: url('../fonts/GoudyStM-webfont.eot') format('eot'),
+       url('../fonts/GoudyStM-webfont.woff') format('woff'),
+       url('../fonts/GoudyStM-webfont.ttf') format('ttf'),
+       url('../fonts/GoudyStM-webfont.svg') format('svg');
+}
+@font-face {
+  font-family: 'Chunk';
+  src: url('../fonts/Chunkfive-webfont.eot') format('eot'),
+       url('../fonts/Chunkfive-webfont.woff') format('woff'),
+       url('../fonts/Chunkfive-webfont.ttf') format('ttf'),
+       url('../fonts/Chunkfive-webfont.svg') format('svg');
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	/*color: #000;*/
+    padding-top: 40px; /* for Bootstrap: to make the container go all the way to the bottom of the topbar */
+}
+#text {
+	width: 100%;
+	height: 5em;
+}
+.palette {
+	height: 18px;
+}
+
+.palette i {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+	border: 0;
+}
+
+
+
+<!-- REMOVE -->
+
+#globalSettings label {
+    float: left;
+    margin-right: 6px;
+    text-align: right;
+    width: 15em;
+}
+#editDiv { display: none; }
+/*#wordTable { display: none }*/
+.collapsibleContainer {
+	 margin-top: 1em;
+}
+div.wordcloud {
+	line-height: normal;
+	font-family: 'Sansita One';
+    /*font-weight: bold;*/
+    padding: 0px;
+    margin: 0px;
+}
+div.cloudword.selected {
+/* 	text-decoration: underline; */
+    background-color: #a0a0a0;
+}
+div.wordcloud :link {
+    text-decoration: none;
+}
+.cloudword {
+  position:absolute;
+}
+.cloudword a {
+	color:inherit;
+    padding: 0px;
+    margin: 0px;
+}
+.wd-rotate-90 {
+  transform:rotate(-90deg);
+  transform-origin: left top;
+  -moz-transform:rotate(-90deg); /* Firefox */
+  -moz-transform-origin: left top;
+  -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+  -webkit-transform-origin: left top;
+  -o-transform: rotate(-90deg); /* Opera */
+  -o-transform-origin: left top;
+  -ms-transform: rotate(-90deg); /* Internet Explorer */
+  -ms-transform-origin: left top;
+}
+.wd-border {
+  border: 1px solid #888;
+}
+
+/*demo page css*/
+h2 {
+	clear: both;
+	padding-top: 1.5em;
+	margin-top: 0;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+/* Top bar: logo, user signup, login etc. */
+#topBar {
+	font: bold 13px Arial,sans-serif;
+    color: #bbb;
+	background-color: #303030;
+    padding: 8px;
+}
+/*
+.topbar .logo {
+    color: #bada55;
+}
+*/
+#topBar .margin-right-10 {
+    margin: 0px 10px 0px 0px;
+}
+#topBar a {
+	padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+}
+#topBar a:hover {
+    /*background-color: #808080;*/
+    color: #ffffff;
+}
+#topBar a.selected {
+    /*background-color: #aaa;*/
+    color: #ffffff;
+}
+#topBar :link {
+    color: inherit;
+    text-decoration: none;
+}
+#topBar :visited {
+    color: inherit;
+    text-decoration: none;
+}
+#topBar #usermgmt {
+    float: right;
+}
+.usermgmt .message {
+	padding: 2px;
+    margin: 10px 0px 0px 0px;
+}
+
+p.note {
+	background: url("../images/ok-64.png") no-repeat scroll left center;
+}
+p.error {
+    background: url("../images/alert-64.png") no-repeat scroll left center;
+}
+p.note, p.error {
+    font-weight: bold;
+    padding: 5px 0 5px 80px;
+    height: 64px;
+    overflow: visible;
+}
